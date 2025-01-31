@@ -255,14 +255,11 @@ footer{
     margin: 3rem 0;
 }
 
-.links > *{
-    margin-bottom: 2rem;
-}
 
 .links li a{
     color: var(--dark-grayish-blue);
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .links li a:hover{
@@ -488,7 +485,8 @@ footer{
         align-items: center;
         justify-content: center;
         gap: 1rem;
-        padding: 0 !important;
+        padding: 2rem 0 0 0 !important;
+        margin-bottom: 0 !important;
     }
 
     .footer-section > *{
@@ -505,7 +503,7 @@ footer{
         align-items: center;
         justify-content: center;
         margin-left: 6rem;
-        margin-top: 5rem;
+        margin-top: 0;
         margin-bottom: 0 !important;
         gap: 5rem;
     }
@@ -514,13 +512,15 @@ footer{
         display: flex;
         justify-content: start;
         align-items: start;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
 
 
     .social-links{
-        justify-content: center;
-        align-items: start;
+        justify-content: end;
+        align-items: center;
+        gap: 1.5rem;
+        margin-right: 5rem;
     }
 
 
